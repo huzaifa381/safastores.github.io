@@ -1,0 +1,25 @@
+[31-Aug-2022 10:37:25 UTC] PHP Warning:  copy(C:/Users/huzai/Local Sites/safastores/app/public/wp-content/upgrade/woocommerce.6.8.2/woocommerce/src/Internal/Admin/RemoteInboxNotifications.php): failed to open stream: No such file or directory in C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 309
+[31-Aug-2022 10:37:25 UTC] PHP Stack trace:
+[31-Aug-2022 10:37:25 UTC] PHP   1. {main}() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\update.php:0
+[31-Aug-2022 10:37:25 UTC] PHP   2. Plugin_Upgrader->install() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\update.php:176
+[31-Aug-2022 10:37:25 UTC] PHP   3. Plugin_Upgrader->run() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[31-Aug-2022 10:37:25 UTC] PHP   4. Plugin_Upgrader->install_package() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-upgrader.php:798
+[31-Aug-2022 10:37:25 UTC] PHP   5. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-upgrader.php:596
+[31-Aug-2022 10:37:25 UTC] PHP   6. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   7. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   8. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   9. WP_Filesystem_Direct->copy() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1911
+[31-Aug-2022 10:37:25 UTC] PHP  10. copy() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-filesystem-direct.php:309
+[31-Aug-2022 10:37:25 UTC] PHP Warning:  chmod(): No such file or directory in C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+[31-Aug-2022 10:37:25 UTC] PHP Stack trace:
+[31-Aug-2022 10:37:25 UTC] PHP   1. {main}() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\update.php:0
+[31-Aug-2022 10:37:25 UTC] PHP   2. Plugin_Upgrader->install() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\update.php:176
+[31-Aug-2022 10:37:25 UTC] PHP   3. Plugin_Upgrader->run() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-plugin-upgrader.php:137
+[31-Aug-2022 10:37:25 UTC] PHP   4. Plugin_Upgrader->install_package() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-upgrader.php:798
+[31-Aug-2022 10:37:25 UTC] PHP   5. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-upgrader.php:596
+[31-Aug-2022 10:37:25 UTC] PHP   6. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   7. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   8. copy_dir() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1937
+[31-Aug-2022 10:37:25 UTC] PHP   9. WP_Filesystem_Direct->copy() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\file.php:1911
+[31-Aug-2022 10:37:25 UTC] PHP  10. WP_Filesystem_Direct->chmod() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-filesystem-direct.php:312
+[31-Aug-2022 10:37:25 UTC] PHP  11. chmod() C:\Users\huzai\Local Sites\safastores\app\public\wp-admin\includes\class-wp-filesystem-direct.php:173
